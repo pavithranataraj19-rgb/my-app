@@ -27,7 +27,7 @@ function App() {
 
       <div className="card state">
 
-        <h2>👤 useState Task</h2>
+        <h2>useState Task</h2>
 
         <input
           type="text"
@@ -44,7 +44,7 @@ function App() {
 
       <div className="card effect">
 
-        <h2>⚡ useEffect Task</h2>
+        <h2>useEffect Task</h2>
 
         <p>
           Refresh the page to see the welcome alert 🎉
@@ -54,7 +54,7 @@ function App() {
 
       <div className="card memo">
 
-        <h2>🧮 useMemo Task (Multiply by 2)</h2>
+        <h2>useMemo Task (Multiply by 2)</h2>
 
         <h3>Number : {number} </h3>
 
@@ -72,7 +72,7 @@ function App() {
 
       <div className="card callback">
 
-        <h2>🎉 useCallback Task</h2>
+        <h2>useCallback Task</h2>
 
         <button onClick={showWelcome}>
           Welcome 👋
