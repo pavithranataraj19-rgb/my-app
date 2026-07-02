@@ -56,7 +56,7 @@ function App() {
 
         <h2>🧮 useMemo Task (Multiply by 2)</h2>
 
-        <h3>Number : {number}</h3>
+        <h3>Number : {number} </h3>
 
         <button
           onClick={() => setNumber(number + 1)}
